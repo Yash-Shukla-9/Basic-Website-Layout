@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Contact.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="Navbar">
+      <img
+        src="./Images/White logo landscape.png"
+        alt="Logo"
+        class="img-logo"
+      />
+      <div class="right">
+        <ul class="nav-ul">
+          <li class="list"><a href="#">Gallery</a></li>
+          <li class="list"><a href="#">Services</a></li>
+          <li class="list"><a href="#">About Us</a></li>
+        </ul>
+        <div class="right2">
+          <button class="order"><a href="#">ORDER</a></button>
+          <span class="language">
+            <i class="fa-solid fa-globe"></i><a href="#"> ENGLISH</a>
+            <span><i class="fa-solid fa-angle-down"></i></span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section for map nd form  -->
+
+    <section class="center-Sec">
+      <div class="center">
+        <div class="left">
+          <div class="text-heading">
+            <h2>ORBIT</h2>
+            <div class="number">Pin code 123-456-789</div>
+            <div class="number">Phone: 9876543210</div>
+          </div>
+
+          <div class="mapbtn">
+            <button class="Btn-map">Map/Direction</button>
+            <iframe
+              class="main-map"
+              width="500"
+              height="300"
+              frameborder="0"
+              style="border: 0"
+              src="https://www.google.com/maps/embed?..."
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div class="map-right">
+          <form>
+            <label for="name">Your Name(required):</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Your Email(required):</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <div>
+              <button type="submit" class="send">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="Footer-Main">
+        <h2><span class="Color">GET</span> IN TOUCH</h2>
+        <div class="footer-social">
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+          <img src="./Images/whatsapp.png" alt="whatsapp" class="img-social" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
