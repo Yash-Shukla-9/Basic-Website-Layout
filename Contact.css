@@ -198,6 +198,15 @@ textarea {
   width: 35px;
 }
 
+.center {
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+
+.center::-webkit-scrollbar {
+  display: none;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .Navbar {
